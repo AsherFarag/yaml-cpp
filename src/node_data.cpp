@@ -13,6 +13,7 @@
 
 namespace YAML {
 namespace detail {
+
 YAML_CPP_API std::atomic<size_t> node::m_amount{0};
 
 const std::string& node_data::empty_scalar() {
